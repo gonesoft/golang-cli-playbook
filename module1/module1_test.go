@@ -27,7 +27,7 @@ func TestModule1CheckEnvGOOSInJson(t *testing.T) {
 		t.Errorf("it looks 'module1.json' is not correctly formatted as a JSON file")
 	}
 
-	_, ok := data["GOOS"]º
+	_, ok := data["GOOS"]
 	if !ok {
 		t.Errorf("your 'module1.json' does not include valid values that we check")
 	}
